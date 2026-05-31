@@ -68,4 +68,4 @@ Ok, so the rate at which we take these steps is the *learning rate (eta)*, and t
 Now, while this is faster than the matrix multiplication stuff from before, it is still slow. Hence, lets look at an alternative method.
 
 **Stochastic Gradient Descent:**
-
+Batch gradient descent uses the entire training set to compute the gradient at every interval, making it slower. To resolve this, stochastic gradient descent is another technique that uses a single instance (one that it chooses randomly) to train on and calculate the gradient from. This, as you can guess, dramatically decreases the run time.
